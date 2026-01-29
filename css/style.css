@@ -188,6 +188,16 @@ body {
   padding: 1rem;
   flex-grow: 1;
   color: var(--cor-texto);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card__filme {
+  font-size: 0.85rem;
+  color: var(--cor-primaria);
+  font-weight: 500;
+  font-style: italic;
 }
 
 .card__botao {

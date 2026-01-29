@@ -8,39 +8,44 @@ const categorias = [
             { id: "103", nome: "Frankenstein", sinopse: "A visão gótica de Guillermo del Toro sobre o clássico, onde o Dr. Pretorious busca o monstro original para continuar seus experimentos.", imagem: "assets/img/frankenstein.jpg" },
             { id: "104", nome: "Hamnet", sinopse: "Chloé Zhao adapta o best-seller sobre a esposa de Shakespeare, Agnes, lidando com a morte devastadora de seu filho único.", imagem: "assets/img/hamnet.jpg" },
             { id: "105", nome: "Marty Supreme", sinopse: "Josh Safdie dirige Timothée Chalamet em uma obra inspirada na vida do lendário jogador de ping-pong Marty Reisman.", imagem: "assets/img/martysupreme.jpg" },
+            { id: "106", nome: "Uma batalha após a outra", sinopse: "O novo épico de Paul Thomas Anderson, estrelado por DiCaprio, com uma trama envolta em mistério e grande orçamento.", imagem: "assets/img/umbatalha.jpg" },
+            { id: "107", nome: "O Agente Secreto", sinopse: "Thriller político de Kleber Mendonça Filho ambientado no Recife dos anos 70, nos dias finais da ditadura militar.", imagem: "assets/img/agentesecreto.jpg" },
+            { id: "108", nome: "Valor Sentimental", sinopse: "De Joachim Trier: uma atriz e sua irmã lidam com o retorno de seu pai distante, um cineasta excêntrico, à vida delas.", imagem: "assets/img/valorsentimental.jpg" },
+            { id: "109", nome: "Pecadores (Sinners)", sinopse: "Ryan Coogler reúne Michael B. Jordan em um terror sobrenatural sobre irmãos gêmeos enfrentando um mal antigo no sul dos EUA.", imagem: "assets/img/pecadores.webp" },
+            { id: "110", nome: "Sonhos de Trem", sinopse: "Adaptação da novela de Denis Johnson sobre a vida de um operário no oeste americano lidando com a perda e a modernidade.", imagem: "assets/img/sonhosdetrem.webp" },
         ]
     },
     {
         id: "direcao",
         titulo: "Melhor Direção",
         candidatos: [
-            { id: "301", nome: "Chloé Zhao", sinopse: "Pela abordagem intimista e lírica em 'Hamnet'.", imagem: "assets/img/chloezao.jpg" },
-            { id: "302", nome: "Josh Safdie", sinopse: "Pela energia frenética e direção de atores em 'Marty Supreme'.", imagem: "assets/img/joshsafdie.webp" },
-            { id: "303", nome: "Paul Thomas Anderson", sinopse: "Pela grandiosidade técnica e narrativa de 'The Battle of Baktan Cross'.", imagem: "assets/img/paulthomasanderson.jpg" },
-            { id: "304", nome: "Joachim Trier", sinopse: "Pelo estudo de personagens complexos em 'Valor Sentimental'.", imagem: "assets/img/joachimtrier.jpg" },
-            { id: "305", nome: "Ryan Coogler", sinopse: "Pela reinvenção do gênero de terror em 'Pecadores'.", imagem: "assets/img/ryancoogler.jpg" },
+            { id: "301", nome: "Chloé Zhao", filme: "Hamnet", sinopse: "Pela abordagem intimista e lírica em 'Hamnet'.", imagem: "assets/img/chloezao.jpg" },
+            { id: "302", nome: "Josh Safdie", filme: "Marty Supreme", sinopse: "Pela energia frenética e direção de atores em 'Marty Supreme'.", imagem: "assets/img/joshsafdie.webp" },
+            { id: "303", nome: "Paul Thomas Anderson", filme: "Uma batalha após a outra", sinopse: "Pela grandiosidade técnica e narrativa de 'Uma batalha após a outra'.", imagem: "assets/img/paulthomasanderson.jpg" },
+            { id: "304", nome: "Joachim Trier", filme: "Valor Sentimental", sinopse: "Pelo estudo de personagens complexos em 'Valor Sentimental'.", imagem: "assets/img/joachimtrier.jpg" },
+            { id: "305", nome: "Ryan Coogler", filme: "Pecadores", sinopse: "Pela reinvenção do gênero de terror em 'Pecadores'.", imagem: "assets/img/ryancoogler.jpg" },
         ]
     },
     {
         id: "atriz",
         titulo: "Melhor Atriz",
         candidatos: [
-            { id: "401", nome: "Jessie Buckley", sinopse: "Como Agnes Shakespeare, o coração emocional de 'Hamnet'.", imagem: "assets/img/jessiebucley.jpg" },
-            { id: "402", nome: "Rose Byrne", sinopse: "Protagonista no drama 'Se eu tivesse pernas, eu te chutaria'.", imagem: "assets/img/rosebyrne.jpg" },
-            { id: "403", nome: "Kate Hudson", sinopse: "Como parte da dupla musical no drama 'Song Sung Blue'.", imagem: "assets/img/katehudson.jpg" },
-            { id: "404", nome: "Renate Reinsve", sinopse: "Retorna com Joachim Trier vivendo uma atriz em crise familiar.", imagem: "assets/img/renatereinsve.jpg" },
-            { id: "405", nome: "Emma Stone", sinopse: "Novamente com Lanthimos, interpretando uma executiva sequestrada em 'Bugonia'.", imagem: "assets/img/emmastone.jpg" },
+            { id: "401", nome: "Jessie Buckley", filme: "Hamnet", sinopse: "Como Agnes Shakespeare, o coração emocional de 'Hamnet'.", imagem: "assets/img/jessiebucley.jpg" },
+            { id: "402", nome: "Rose Byrne", filme: "Se eu tivesse pernas, eu te chutaria", sinopse: "Protagonista no drama 'Se eu tivesse pernas, eu te chutaria'.", imagem: "assets/img/rosebyrne.jpg" },
+            { id: "403", nome: "Kate Hudson", filme: "Song Sung Blue", sinopse: "Como parte da dupla musical no drama 'Song Sung Blue'.", imagem: "assets/img/katehudson.jpg" },
+            { id: "404", nome: "Renate Reinsve", filme: "Valor Sentimental", sinopse: "Retorna com Joachim Trier vivendo uma atriz em crise familiar.", imagem: "assets/img/renatereinsve.jpg" },
+            { id: "405", nome: "Emma Stone", filme: "Bugonia", sinopse: "Novamente com Lanthimos, interpretando uma executiva sequestrada em 'Bugonia'.", imagem: "assets/img/emmastone.jpg" },
         ]
     },
     {
         id: "ator",
         titulo: "Melhor Ator",
         candidatos: [
-            { id: "501", nome: "Timothée Chalamet", sinopse: "Transformação física e estilo excêntrico como o jogador Marty Reisman.", imagem: "assets/img/timothéechalamet.jpg" },
-            { id: "502", nome: "Leonardo DiCaprio", sinopse: "Protagonista do projeto misterioso e contemporâneo de Paul Thomas Anderson.", imagem: "assets/img/leonardodicaprio.jpg" },
-            { id: "503", nome: "Ethan Hawke", sinopse: "Interpretando o letrista Lorenz Hart na cinebiografia 'Blue Moon'.", imagem: "assets/img/ethanhawke.jpg" },
-            { id: "504", nome: "Michael B. Jordan", sinopse: "Desafio duplo interpretando irmãos gêmeos em 'Pecadores'.", imagem: "assets/img/michaelbjordan.jpg" },
-            { id: "505", nome: "Wagner Moura", sinopse: "Como Marcelo, um professor fugindo de seu passado no thriller 'O Agente Secreto'.", imagem: "assets/img/wagnermoura.jpg" },
+            { id: "501", nome: "Timothée Chalamet", filme: "Marty Supreme", sinopse: "Transformação física e estilo excêntrico como o jogador Marty Reisman.", imagem: "assets/img/timothéechalamet.jpg" },
+            { id: "502", nome: "Leonardo DiCaprio", filme: "Uma batalha após a outra", sinopse: "Protagonista do projeto misterioso e contemporâneo de Paul Thomas Anderson.", imagem: "assets/img/leonardodicaprio.jpg" },
+            { id: "503", nome: "Ethan Hawke", filme: "Blue Moon", sinopse: "Interpretando o letrista Lorenz Hart na cinebiografia 'Blue Moon'.", imagem: "assets/img/ethanhawke.jpg" },
+            { id: "504", nome: "Michael B. Jordan", filme: "Pecadores", sinopse: "Desafio duplo interpretando irmãos gêmeos em 'Pecadores'.", imagem: "assets/img/michaelbjordan.jpg" },
+            { id: "505", nome: "Wagner Moura", filme: "O Agente Secreto", sinopse: "Como Marcelo, um professor fugindo de seu passado no thriller 'O Agente Secreto'.", imagem: "assets/img/wagnermoura.jpg" },
         ]
     },
     {

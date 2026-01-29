@@ -141,7 +141,9 @@ function criarCardCandidato(candidato, categoriaId) {
 
   const titulo = document.createElement("h3");
   titulo.className = "card__titulo";
-  titulo.textContent = candidato.nome;
+  titulo.innerHTML = candidato.filme 
+    ? `${candidato.nome}<span class="card__filme">${candidato.filme}</span>`
+    : candidato.nome;
 
   const botao = document.createElement("button");
   botao.type = "button";

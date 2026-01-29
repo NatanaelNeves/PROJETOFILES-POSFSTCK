@@ -98,9 +98,6 @@ function atualizarResumoVotos() {
   resumoVotos.innerHTML = html;
 }
 
-// ============================================
-// MODAL
-// ============================================
 function abrirModal(candidato) {
   detalhesCorpo.innerHTML = `
     <img src="${getImagemUrl(candidato)}" alt="Detalhes de ${candidato.nome}" class="modal__imagem">
@@ -253,7 +250,6 @@ function validarFormulario(e) {
 
 formulario.addEventListener("submit", validarFormulario);
 
-// Navegação com scroll automático
 document.querySelectorAll(".navbar__link").forEach(link => {
   link.addEventListener("click", (e) => {
     e.preventDefault();

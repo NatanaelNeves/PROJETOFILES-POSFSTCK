@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolão do Oscar 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__titulo">🎬 Bolão do Oscar 2026</h1>
+            <p class="header__subtitulo">Vote nos seus filmes e diretores favoritos</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navbar__lista">
+            <li><a href="#app" class="navbar__link navbar__link--ativo">Votação</a></li>
+            <li><a href="#sobre" class="navbar__link">Meus Palpites</a></li>
+            <li><a href="#contato" class="navbar__link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="app" class="main">
+    </main>
+
+    <dialog id="detalhesModal" class="modal">
+        <div class="modal__conteudo">
+            <button type="button" class="modal__fechar" aria-label="Fechar modal">✕</button>
+            <div id="detalhesCorpo" class="modal__corpo">
+            </div>
+        </div>
+    </dialog>
+
+    <section id="sobre" class="sobre">
+        <div class="sobre__container">
+            <h2>Meus Palpites</h2>
+            <div id="resumoVotos" class="resumo-votos">
+                <!-- Preenchido dinamicamente pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="contato__container">
+            <h2>Finalize seu Bolão</h2>
+            <form id="formularioContato" class="formulario" novalidate>
+                <div class="formulario__grupo">
+                    <label for="email" class="formulario__label">E-mail <span aria-label="obrigatório">*</span></label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="formulario__input" 
+                        placeholder="seu@email.com"
+                        required
+                    >
+                    <span id="erroEmail" class="formulario__erro" aria-live="polite"></span>
+                </div>
+
+                <div class="formulario__grupo">
+                    <label for="nome" class="formulario__label">Nome completo <span aria-label="obrigatório">*</span></label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        class="formulario__input" 
+                        placeholder="Seu nome"
+                        minlength="3"
+                        required
+                    >
+                    <span id="erroNome" class="formulario__erro" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="formulario__botao">Enviar Bolão</button>
+                <span id="mensagemEnvio" class="formulario__mensagem" aria-live="assertive"></span>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Bolão do Oscar. Desenvolvido por Natanael Neves.</p>
+    </footer>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>

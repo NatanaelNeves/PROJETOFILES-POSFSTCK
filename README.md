@@ -265,25 +265,3 @@ Este projeto implementou:
 Desenvolvido em: Fevereiro de 2026  
 Projeto: Trabalho Prático Frontend (HTML + CSS + JavaScript)
 
----
-
-## 📄 Licença
-
-Projeto educacional. Livre para uso e modificação.
-
----
-
-## ✅ Entregáveis
-
-- ✅ Código no GitHub
-- ✅ Aplicação em produção (GitHub Pages)
-- ✅ README.md (este arquivo)
-- ✅ HTML Semântico
-- ✅ Responsividade comprovada
-- ✅ Acessibilidade implementada
-- ✅ JavaScript dinâmico
-- ✅ localStorage funcionando
-
----
-
-**Pronto para apresentar! 🎬✨**

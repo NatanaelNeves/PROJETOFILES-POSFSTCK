@@ -249,19 +249,6 @@ Este projeto implementou:
 
 ---
 
-## 🚀 Próximas Melhorias (Futuro)
-
-- [ ] Backend para persistência em banco de dados
-- [ ] Autenticação de usuários
-- [ ] Ranking com compare votos
-- [ ] Compartilhamento de resultados
-- [ ] Dark/Light theme toggle
-- [ ] Internacionalização (PT/EN/ES)
-- [ ] Animações com Framer Motion
-- [ ] PWA (offline-first)
-
----
-
 ## 📚 Referências & Recursos
 
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)

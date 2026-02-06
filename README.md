@@ -22,6 +22,9 @@ Desenvolvida como **Trabalho Prático de Frontend (HTML + CSS + JavaScript)**, a
 - ♿ **Acessibilidade WCAG** com focus states, ARIA labels e semântica HTML
 
 ---
+## Layout
+
+![BOLAO DO OSCAR](https://github.com/user-attachments/assets/b6cb9622-d009-4e60-9688-e2520cf080aa)
 
 ## 🎯 Requisitos Implementados
 
